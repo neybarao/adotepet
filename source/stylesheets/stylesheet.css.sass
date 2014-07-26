@@ -24,26 +24,47 @@ h2
 .logo-adotepet
 	margin: 40px 0
 
-.form-bg
-	margin-top: 30px
-	@include border-radius(8px)
-	background: #8BC34A
-	box-sizing: border-box
-	padding: 30px
-	label
-		color: white
-		font-size: 18px
+.botao
+	text-align: center
+	a
+		display: block
+		font-size: 20px
 		font-weight: 100
-	input
-		border: none
-	button
-		border: none
-		background-color: #689F38
-		color: white
-		font-size: 18px
-	.radio-inline span
-		padding: 5px
-		box-sizing: border-box
+		color: #fff
+		text-decoration: none
+		padding: 20px 10px
+		@include border-radius(8px)
+
+.quero-doar a
+	background-color: #8BC34A
+	&:hover
+		background-color: darken(#8BC34A, 5%)
+
+.quero-adotar a
+	background-color: #7E57C2
+	&:hover
+		background-color: darken(#7E57C2, 5%)
+
+// .form-bg
+// 	margin-top: 30px
+// 	@include border-radius(8px)
+// 	background: #8BC34A
+// 	box-sizing: border-box
+// 	padding: 30px
+// 	label
+// 		color: white
+// 		font-size: 18px
+// 		font-weight: 100
+// 	input
+// 		border: none
+// 	button
+// 		border: none
+// 		background-color: #689F38
+// 		color: white
+// 		font-size: 18px
+// 	.radio-inline span
+// 		padding: 5px
+// 		box-sizing: border-box
 
 
 @media only screen and (max-width: 767px)
