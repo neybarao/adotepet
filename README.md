@@ -1,4 +1,4 @@
-SGS web
+Adote Pet
 ===
 
 This is a bootstrap template for SGS web admin
