@@ -11,9 +11,10 @@
 	<key>fonts</key>
 	<array>
 		<string>Roboto-Regular</string>
+		<string>Roboto-Light</string>
 	</array>
 	<key>length</key>
-	<integer>5532781</integer>
+	<integer>6552570</integer>
 	<key>version</key>
 	<integer>37</integer>
 </dict>
