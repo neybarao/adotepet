@@ -20,6 +20,7 @@ h2
 	font-weight: 100
 	color: #1c2b36
 	margin-top: 0
+	margin-bottom: 40px
 
 .logo-adotepet
 	margin: 40px 0
@@ -67,14 +68,21 @@ h2
 // 		box-sizing: border-box
 
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 768px)
 	body
 		background: #FFF
 	h2
-		font-size: 24px
+		font-size: 20px
 	.form-bg
 		padding: 20px
 		.radio-inline
 			font-size: 14px
+
+	.botao
+		text-align: center
+		a
+			margin-bottom: 15px
+			padding: 20px 10px
+			@include border-radius(0)
 
 
