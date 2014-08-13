@@ -21,8 +21,7 @@
 		<meta property="og:description" content="Quer doar ou adotar um bichinho de estimação? Nós ajudamos!" />
 
 
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400' rel='stylesheet' type='text/css'>
 
 		<%= stylesheet_link_tag "normalize", "bootstrap/css/bootstrap.min", "font-awesome/css/font-awesome.min", "stylesheet", "slider/css/slider" %>
 		<%= javascript_include_tag  "jquery.min", "all", "/stylesheets/bootstrap/js/bootstrap.min", "slider/js/bootstrap-slider" %>
@@ -32,21 +31,10 @@
 	</head>
 
 	<body class="<%= page_classes %>">
-		<nav>
-			<div class="text-center">
-				<%= image_tag 'adotepet-logo.png', :width => '240', :class => 'logo-adotepet' %>
-			</div>
-		</nav>
 
 		<div class="container">
 			<%= yield %>
 		</div>
-
-		<footer>
-			<div id="footer" class="text-center">
-
-			</div>
-		</footer>
 
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

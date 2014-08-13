@@ -2,31 +2,22 @@
 title: AdotePet - Bem-vindo
 ---
 
-<div class="row">
-	<div class="col-md-8 col-md-offset-2" id="login-box">
 
-		<h2 class="text-center">Quer doar ou adotar um bichinho de estimação? Nós ajudamos!</h2>
+<div>
 
-		<div class="row">
-			<div class="col-md-5 col-md-offset-1">
-				<div class="quero-doar botao">
-					<a href="https://adotepet.typeform.com/to/zAB3UV">
-						<%= image_tag 'icon_querodoar.png', :width => '220' %>
-						<br>
-						Quero doar
-					</a>
-				</div>
-			</div>
-
-			<div class="col-md-5">
-				<div class="quero-adotar botao">
-					<a href="https://adotepet.typeform.com/to/hQbsMi">
-						<%= image_tag 'icon_queroadotar.png', :width => '220' %>
-						<br>
-						Quero adotar
-					</a>
-				</div>
-			</div>
-		</div>
+	<div class="message">
+		<%= image_tag 'adotepet-logo.png', :width => '240', :class => 'logo-adotepet' %>
+		<h2 class="text-center">Estamos reformulando nosso site para ajudar nossos parceiros. Fique antenado!</h2>
 	</div>
+
+	<div class="overlay">
+		&nbsp;
+	</div>
+
+	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+		<source src="images/dog.webm" type="video/webm">
+		<source src="images/dog.mp4" type="video/mp4">
+		Video not supported
+	</video>
+
 </div>

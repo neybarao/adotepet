@@ -1,0 +1,88 @@
+
+@import "compass/css3"
+@import "compass/utilities"
+
+html
+	height: 100%
+
+body
+	background-image: url('/images/bichos.jpg')
+	background-position: bottom center
+	background-repeat: no-repeat
+	background-color: #FFF
+	font-family: "Roboto"
+	margin: 0
+	padding: 0
+	height: 100%
+
+h2
+	font-size: 32px
+	font-weight: 100
+	color: #1c2b36
+	margin-top: 0
+	margin-bottom: 40px
+
+.logo-adotepet
+	margin: 40px 0
+
+.botao
+	text-align: center
+	a
+		display: block
+		font-size: 20px
+		font-weight: 100
+		color: #fff
+		text-decoration: none
+		padding: 20px 10px
+		@include border-radius(8px)
+
+.quero-doar a
+	background-color: #8BC34A
+	&:hover
+		background-color: darken(#8BC34A, 5%)
+
+.quero-adotar a
+	background-color: #7E57C2
+	&:hover
+		background-color: darken(#7E57C2, 5%)
+
+// .form-bg
+// 	margin-top: 30px
+// 	@include border-radius(8px)
+// 	background: #8BC34A
+// 	box-sizing: border-box
+// 	padding: 30px
+// 	label
+// 		color: white
+// 		font-size: 18px
+// 		font-weight: 100
+// 	input
+// 		border: none
+// 	button
+// 		border: none
+// 		background-color: #689F38
+// 		color: white
+// 		font-size: 18px
+// 	.radio-inline span
+// 		padding: 5px
+// 		box-sizing: border-box
+
+
+@media only screen and (max-width: 768px)
+	body
+		background: #FFF
+	h2
+		font-size: 20px
+	.form-bg
+		padding: 20px
+		.radio-inline
+			font-size: 14px
+
+	.botao
+		text-align: center
+		a
+			margin-bottom: 15px
+			padding: 20px 10px
+			@include border-radius(0)
+
+
